@@ -1,0 +1,343 @@
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    
+    width: 313px;
+    height: 280px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box1 .frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    gap: 21px;
+    width: 360px;
+    height: 219px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    right: 21px;
+}
+
+.box1 .frame .title{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 277px;
+height: 49px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.box1 .frame .title .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+    
+    width: 277px;
+    height: 24px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.box1 .frame .title .coupe{
+width: 50px;
+height: 21px;
+margin-top: 0px;
+/* tittle/16 R */
+margin-bottom: 0;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box1 height */
+
+
+/* gray/dark 3 */
+
+color: #72767C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.box1 .frame .title .top .porshe{
+    width: 184px;
+    height: 23px;
+    
+    /* tittle/18 bold */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    
+    /* primary/dark 1 */
+    
+    color: #242731;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.box1 .frame img{
+   /* car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb */
+
+   width: 320px;
+   height: 190px;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+
+}
+
+.box1 .frame .bottom{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 81px;
+
+width: 277px;
+height: 23px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.box1 .frame .bottom .left-side{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+width: 131px;
+height: 23px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.box1 .frame .bottom p{
+width: 65px;
+height: 23px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+/* primary/dark 1 */
+
+color: #242731;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.box1 .frame .bottom .left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    
+    width: 131px;
+    height: 23px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box1 .frame .bottom .left-side .price1{
+    width: 65px;
+height: 23px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+/* primary/dark 1 */
+
+color: #242731;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.box1 .frame .bottom .left-side .icon1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 35px;
+height: 23px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.box1 .frame .bottom .left-side .icon1 svg{
+    width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.box1 .frame .bottom .left-side .icon1 p{
+    width: 11px;
+height: 23px;
+
+/* tittle/18R */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* gray/dark 3 */
+
+color: #72767C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.box1 .frame .bottom .left-side .icon2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 78px;
+height: 21px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.box1 .frame .bottom .left-side .icon2 svg{
+    width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.box1 .frame .bottom .left-side .icon2 p{
+    width: 53px;
+height: 21px;
+
+/* tittle/16 R */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box1 height */
+
+
+/* gray/dark 3 */
+
+color: #72767C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

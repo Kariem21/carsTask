@@ -1,0 +1,121 @@
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 10px;
+    
+    /* position: absolute; */
+    width: 232px;
+    height: 290px;
+    /* left: 278px;
+    top: 105px; */
+    
+    /* primary/purple */
+    
+    background: #A162F7;
+    border-radius: 14px;}
+
+.chart .chart-content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 112px;
+height: 221px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.chart .chart-content .title-top{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 81px;
+height: 79px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.chart .chart-content .title-top .component{
+    width: 38px;
+height: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.chart .chart-content .title-top .component svg{
+    /* position: absolute;
+left: 23.68%;
+right: 23.68%;
+top: 23.68%;
+bottom: 23.68%; */
+
+}
+.chart .chart-content .title-top .component .ellipse{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #A66FF0;}
+
+.chart .chart-content .title-top p{
+    width: 81px;
+height: 31px;
+
+/* Heading/H2 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+/* gray/white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.chart .chart-content .svg2{
+    width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

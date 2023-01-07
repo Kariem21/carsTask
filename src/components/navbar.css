@@ -1,0 +1,293 @@
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  } */
+  /* small */
+/* @media (max-width: 767px) {
+    .nav{
+        width: 50%;
+    }
+    
+  } 
+
+@media (min-width: 768px) {
+    
+  }
+  /* medium */
+  /* @media (min-width: 992px) {
+    
+  } */
+  /* large */
+  /* @media (min-width: 1200px) {
+   
+  }
+  @media (max-width: 992px) {
+    
+  } 
+  @media (max-width: 1199px) {
+    
+  } */ 
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .nav {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .nav {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .nav {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .nav {background: pink;}
+  }
+.nav{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px 31px;
+gap: 10px;
+
+position: absolute;
+width: 1198px;
+height: 78px;
+left: 249px;
+top: 0px;
+margin-left: 10px;
+
+/* gray/white */
+
+background: #FFFFFF;
+}
+
+
+.nav .content{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 630px;
+
+width: 1029.2px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.nav .content .search-bar{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 14px;
+gap: 10px;
+
+width: 358px;
+height: 30px;
+
+background: #F5F4F6;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav .content .search-bar .search-bar-content{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 154px;
+height: 22px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav .content .search-bar .search-bar-content svg{
+    width: 20px;
+height: 20px;
+
+/* gray/dark 4 */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav .content .search-bar .search-bar-content .search-text-and-rect{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 118px;
+height: 22px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.nav .content .search-bar .search-bar-content .search-text-and-rect .rect{
+    width: 2px;
+height: 22px;
+
+/* primary */
+
+background: #EF9011;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.nav .content .search-bar .search-bar-content .search-text-and-rect input{
+    width: 112px;
+    height: 21px;
+    
+    /* tittle/16 M */
+    border:#F5F4F6 ;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background: #F5F4F6;
+
+    /* identical to box height */
+    
+    
+    /* gray/dark 4 */
+    
+    color: #7C7C8D;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+
+.nav .content .right{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 39px;
+
+width: 106.2px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.nav .content .right .notification{
+    width: 19.2px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.nav .content .right .photo{
+ 
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+nav .content .right .photo .im{
+    position: absolute;
+width: 119px;
+height: 79px;
+left: 22.6px;
+top: -2px;
+
+background: url(images/portrait-handsome-european-male-student-has-gentle-smile-face-happy-hear-pleasant-news-stands-delighted-wears-round-spectacles-orange-jumper_273609-45004.jpg)
+}
+nav .content .right .photo .img{
+    position: absolute;
+width: 54px;
+height: 50px;
+left: 55.2px;
+top: -2px;
+
+background: url(images/attractive-kind-cute-young-man-gently-smiling-dressed-beautiful-denim-shirt-isolated-yellow-wall_295783-1613.jpg);
+}
+
+nav .content .right .photo .ellips{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 58.2px;
+top: 0px;
+
+background: #C4C4C4;
+}
+.avatar{
+        vertical-align: middle;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        position: absolute;
+        right: 25px;
+        top: 30px;
+}

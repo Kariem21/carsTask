@@ -1,0 +1,220 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 15px 27px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 318px;
+    height: 275px;
+    /* left: 282px; */
+    /* top: 758px; */
+    background: #E1DFA4;
+    border-radius: 14px;
+}
+.box .frame{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+
+width: 264px;
+height: 206px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.box .frame .title{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 170px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.box .frame .Top{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 170px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.box .frame .Top .text20{
+    width: 136px;
+    height: 21px;
+    
+    /* tittle/16 B */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* primary/dark 1 */
+    
+    color: #242731;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+.box .frame img{
+   /* car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb */
+
+   /* width: 320px;
+   height: 190px;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   flex: none;
+   order: 1;
+   flex-grow: 0; */
+   width: 265px;
+   height: 165px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.box .frame .bottom{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 264px;
+height: 54px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.box .frame .bottom .deep-bottom
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 105px;
+    
+    width: 264px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;}
+
+.box .frame .bottom .text{
+    width: 264px;
+height: 26px;
+
+/* Heading/H3 */
+margin-top: 0;
+margin-bottom: 0;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* gray/Dark */
+
+color: #1F2128;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.box .frame .bottom .left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 120px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.box .frame .bottom .left-side{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 120px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+
